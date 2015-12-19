@@ -1,6 +1,6 @@
 # random-number-in-range
 
-Returns a random number between min and max.
+Returns a random number between min (inclusive) and max (exclusive).
 
 # Install
 
