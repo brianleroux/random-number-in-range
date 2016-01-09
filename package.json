@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "returns a random number between min and max values supplied",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianleroux/random-number-in-range.git"
+  },
   "scripts": {
     "start": "npm run build && npm run impl-default",
     "build": "6to5 src/index.js > dist/index.js",
