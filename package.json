@@ -1,6 +1,6 @@
 {
   "name": "random-number-in-range",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "returns a random number between min and max values supplied",
   "main": "dist/index.js",
   "repository": {
