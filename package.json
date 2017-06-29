@@ -2,7 +2,7 @@
   "name": "random-number-in-range",
   "version": "1.0.1",
   "description": "returns a random number between min and max values supplied",
-  "main": "dist/index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/brianleroux/random-number-in-range.git"
