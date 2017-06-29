@@ -8,20 +8,12 @@
     "url": "https://github.com/brianleroux/random-number-in-range.git"
   },
   "scripts": {
-    "start": "npm run build && npm run impl-default",
-    "build": "6to5 src/index.js > dist/index.js",
-    "impl-default": "implicit-default dist/index.js",
-    "test": "npm run es5-test && npm run es6-test",
-    "es5-test": "node test/test-rando-as-es5 tap-spec | tap-spec",    
-    "es6-test": "6to5-node test/test-rando-as-es6.js | tap-spec"
+    "test": "tape test/*.js | tap-spec"
   },
   "author": "Brian LeRoux",
   "license": "Apache2",
   "devDependencies": {
-    "6to5": "^1.12.18",
-    "browserify": "^6.3.2",
-    "implicit-default-clobber": "^1.6.0",
     "tap-spec": "^1.0.1",
-    "tape": "^3.0.3"
+    "tape": "^3.6.1"
   }
 }

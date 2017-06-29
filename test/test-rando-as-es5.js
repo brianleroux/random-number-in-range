@@ -1,5 +1,5 @@
 var test = require('tape')
-  , rando = require('./../')
+var rando = require('../')
 
 test('exists', function(t) {
   t.ok(rando, 'it exists')
